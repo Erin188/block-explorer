@@ -14,6 +14,7 @@ import { TokenModule } from "./token/token.module";
 import { BatchModule } from "./batch/batch.module";
 import { BlockModule } from "./block/block.module";
 import { PointsModule } from "./points/points.module";
+import { BatchRootEventLogsModule } from "./eventWatcher/BatchRootEventLogs.module";
 import { AddressModule } from "./address/address.module";
 import { BalanceModule } from "./balance/balance.module";
 import { TransferModule } from "./transfer/transfer.module";
@@ -45,6 +46,7 @@ import config from "./config";
     BalanceModule,
     BatchModule,
     PointsModule,
+    BatchRootEventLogsModule,
     BlockModule,
     TransferModule,
     TransactionModule,
